@@ -1,0 +1,18 @@
+
+link(rel="stylesheet", type="text/css", href="/easyrtc/easyrtc.css")
+
+script(src="/easyrtc/easyrtc.js")
+script(src="/socket.io/socket.io.js")
+script(src="js/app.js")
+
+
+body(onLoad="my_init();")
+    h1 Test
+
+    div#otherClients
+
+    video(style="float:left", id="self", width="300", height="200", muted="muted")
+    
+    div(style="position:relative;float:left;width:300px")
+        video(id="caller", width="300", height="200")
+    

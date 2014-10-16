@@ -1,0 +1,16 @@
+{
+  "name": "easyrtc-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "easyrtc": "^1.0.12",
+    "jade": "^1.7.0",
+    "socket.io": "^1.1.0"
+  }
+}
